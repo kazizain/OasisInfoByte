@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Landing Page</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Bootstrap JavaScript and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <style>
+        /* Custom CSS */
+        .navbar {
+            background-color:  rgb(45, 44, 44);
+            padding-bottom: 50px;
+        }
+
+        .navbar-nav .nav-link {
+            color: aliceblue !important;
+        }
+
+        .nav-item {
+            margin-right: 60px;
+        }
+
+        /* Add white background on button hover */
+        button:hover,
+        .cta-button:hover {
+            background-color: orange !important;
+            
+        }
+
+        .main{
+            height: 280px;
+        }
+
+
+    #f{
+        margin-left: 400px;
+    }
+
+        /* Header styles */
+        header {
+            color: aliceblue;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        section{
+            background-color: aliceblue;
+            text-align: center;
+        }
+
+        h5{
+            color: aliceblue;
+            margin-top: 50px;
+            text-align: center;
+            
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        button{
+            border-radius: 20px 20px 20px 20px;
+            background-color: green;
+            border-color: aliceblue;
+            color: aliceblue;
+        }
+
+        footer {
+         text-align: center;
+         padding: 10px;
+         background-color: lightgray;
+         color: black;
+}
+    </style>
+</head>
+<body>
+<div class="container-fluid" style="background-color: rgb(45, 44, 44);padding-bottom: 50px; padding-top: 50px;padding-left: 100px;padding-right: 80px;">
+    <div class="row">
+    <!-- NavBar Code -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" style="color: aliceblue;"><img src="shopping-cart.png" height="50px" width="50px" ><b>ShopyCart</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="color: aliceblue;" id="f">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: aliceblue;">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: aliceblue;">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: aliceblue;"><button class="cta-button">Login</button></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="col">
+    <!-- Header Code -->
+    <header>
+        <h1>Buy Any Thing</h1>
+        <p>Offering a vast selection of top brands and competitive prices, <br>with a user-friendly platform and secure checkout for a<br> seamless shopping experience.<br></p>
+        <button class="cta-button" >Buy Now</button>
+    </header>
+</div>
+<div class="col">
+    <img src="i.png" alt="shopping picture" class="main">
+</div>
+<!--------------------------footer-------------------------------->
+
+</div>
+
+<div class="row" > 
+    <div class="col-4" >
+        <h5>Grocery Items</h5>
+        <img src="grocery.png" alt="grocey item img" height="150px" style="margin-left: 70px;">
+        <section>
+            Discover a wide selection of premium branded grocery items at ShopyCart, your one-stop shop for quality food and household essentials.
+        </section>
+    </div>
+    <div class="col-4">
+        <h5>Electronic Item</h5>
+        <img src="electronic.png" alt="grocey item img" height="110px" style="margin-left: 30px;">
+         <section>
+            Shop at ShopyCart for a premium selection of branded electronic items. Discover the latest and greatest in electronics, from top-notch gadgets to cutting-edge appliances, all available in one convenient online store
+         </section>
+    </div>
+    <div class="col-4">
+        <h5>Garments Item</h5>
+        <img src="garments.png" alt="grocey item img" height="150px" style="margin-left: 90px;">
+    
+    <section>
+        Shop at ShopyCart for a wide selection of high-quality branded garments.
+    </section>
+
+    </div>
+    
+</div>
+
+
+</div>
+
+<footer>
+  
+     <p>&copy; 2023 ShopyCart. All rights reserved.</p>
+</footer>
+</body>
+</html>

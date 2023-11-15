@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <style>
+
+
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(7, 7, 67);
+            color: white;
+        }
+
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 50px;
+            background-color: rgb(5, 5, 38);
+            font-size: 1.2rem;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+
+       nav ul li{
+        list-style: none;
+        margin: 0 23px;
+       }
+
+       .first{
+        display: flex;
+        justify-content: space-around;
+        margin: 60px 0;
+       }
+       .first div{
+        width: 55%;
+        padding-left: 110px;
+       }
+       .leftsection{
+        font-size: 2.2rem;
+        margin: 30px 0;
+       }
+       .leftsection .btn
+       {
+        padding: 12px;
+        background-color: rgb(7, 7, 67);
+        border: 3px solid;
+        border-color: aliceblue;
+        color: aliceblue;
+       }
+
+       
+       .leftsection .btne
+       {
+        padding: 12px;
+       }
+       .rightsection img{
+        width: 70%;
+       }
+
+       .purpule{
+        color: blueviolet;
+       }
+
+       nav ul li a{
+        text-decoration: none;
+        color: white;
+       }
+
+       .btn a{
+        text-decoration: none;
+        color: white;
+       }
+
+       .btne a{
+        text-decoration: none;
+        color: black;
+       }
+
+       nav ul li a:hover{
+        color: rgb(157, 157, 250);
+        font-size: 1rem;
+       }
+
+       #element{
+        color: blueviolet;
+       }
+
+.second{
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(46, 8, 82);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+
+.grey{
+    color: grey;
+}
+ .second .box{
+    background: white;
+    height: 2px;
+    width: 77vw;
+    margin: 56px 0;
+    display: flex;
+ }
+
+
+.second .box .vertical{
+    height:  93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.box .vertical .Vertical_tittle{
+    position: relative;
+    top: 115px;
+    width: 150px;
+}
+
+
+
+
+.box .vertical .vertical_des{
+    position: relative;
+    top: 130px;
+    width: 150px;
+    color: gray;
+    font-size: 13px;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: rgb(5, 5, 38);
+    margin-top: 250px;
+    height: 233px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+
+
+.footer > div
+{
+    width: 173px;
+}
+
+
+footer .text-center{
+text-align: center;
+color: gray;
+padding: 20px 0;
+}
+
+</style>
+
+
+
+</head>
+<body>
+    
+<header>
+    <nav>
+        <div class="left"> <!-----------use for my logo---------------->
+         Zain Portfolio's
+        </div>
+
+
+
+
+        <div class="right"> <!----------------use for my nav-items---------------------------->
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="first">
+
+        <div class="leftsection">
+            Hi, My Name is <span class="purpule">Zain</span>
+            <div>I am a Passionate</div>
+         
+            <span id="element"></span>
+
+            
+            <div class="buttons">
+                <button class="btn"><a href="#">Dwonload Resume</a></button>
+                <button class="btne"><a href="#">Visit Github</a></button>
+            </div>
+        </div>
+
+
+        <div class="rightsection">
+       
+            <img src="zain.png" alt="my image">
+       
+        </div>
+
+
+
+    </section>
+
+<hr>
+    <section class="second">
+        
+        <span class="grey">What I have done so far?</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+            <div class="vertical">
+                <div class="Vertical_tittle">
+                  Frontend Developer <br>(2020-2023)
+                </div>
+                <div class="vertical_des">
+                    working on Next as a frame work
+                </div>
+            </div>
+            
+            <div class="vertical">
+                <div class="Vertical_tittle">
+                    Backend Developer <br>(2020-2023)
+                  </div>
+                  <div class="vertical_des">
+                    working on node and express js as frame work
+                  </div>
+            </div>
+            
+            <div class="vertical">
+                <div class="Vertical_tittle">
+                    Quality Tester <br>(2020-2023)
+                  </div>
+                  <div class="vertical_des">
+                    using selenium tool for j unit testing
+                  </div>
+            </div>
+
+            
+            <div class="vertical">
+                <div class="Vertical_tittle">
+                    DevOps Enthausist <br>(2020-2023)
+                  </div>
+                  <div class="vertical_des">
+                    working on AWS cloud for storage 
+                  </div>
+            </div>
+            
+        </div>
+        
+    </section>
+</main>
+
+<!------------------------Creating a Footer------------------------------>
+<footer>
+    <div class="footer">
+        <div class="ffirst">
+            <h3>Zain's Developer Portfolio</h3>
+        </div>
+        <div class="fsecond"><ul>
+            <li>Home</li>
+            <li>about</li>
+            
+            <li>services</li>
+            <li>contact</li>
+        </ul></div>
+        <div class="fthird">
+            <ul>
+                <li>Home</li>
+                <li>about</li>
+                
+                <li>services</li>
+                <li>contact</li>
+            </ul>
+        </div>
+        <div class="ffourth">
+            <ul>
+                <li>Home</li>
+                <li>about</li>
+                
+                <li>services</li>
+                <li>contact</li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-center">
+   Copyrights &#169; Zainportfolio.com | All rights reserved
+    </div>
+</footer>
+
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> <!------cdn for typed js-------->
+
+
+
+
+
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['MERN Stack Developr', 'Android Developer' ,'DevOps Enthausist'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+</html>
